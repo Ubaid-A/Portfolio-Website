@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects</title>
+
+    <style>
+        /* *{
+        margin: 0;
+        padding: 0;
+        } */
+        nav .navbar .logo a{
+            font-weight: 500;
+            font-size: 35px;
+            color: #4070f4;
+            text-decoration: none;
+            transition: 0.5s;
+        }
+        nav .navbar .logo a:hover{
+            color: rgb(255, 0, 0);
+        }
+        nav .navbar{
+            width: 95%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: auto;
+           
+        }
+        nav .navbar .menu{
+            font-size: 30px;
+            display: flex;
+            position: relative;
+            
+        }
+        nav .navbar .menu li{
+            list-style: none;
+            margin: 0 8px;
+            
+        }
+        .navbar .menu a{
+            text-decoration: none;
+            font-size: 25px;
+            font-weight: 500;
+            padding: 8px 14px;
+            color: rgba(3, 6, 5, 0.716);
+            transition: 0.5s;
+        }
+        .navbar .menu a:hover{
+            color: rgb(213, 7, 82);
+        }
+        
+    </style>
+</head>
+<body style="background-color: #afbee7;">
+    <!-- nav bar or unorderd list-->
+
+    <nav>
+        <div class="navbar">
+        <div class="logo"><a href="#">Welcome To My Portfolio</a></div>
+        <ul class="menu">
+            <li><a href="./index.html">Home Page</a></li>
+            <li><a href="./skill.html">Skills Page</a></li>
+            <li><a href="./contact.html">Contact Page</a></li>
+        </ul>
+        </div>
+    </nav>
+    <!-- project title and bio -->
+
+
+    <ol>
+        <h1>My Projects</h1>
+        <li>Web Development
+            <ul>
+                <li><figure>
+                    <img src="images/web-dev-img.jpeg" alt="web dev pic" width="150">
+                    <figcaption > This project is a responsive website built using HTML, CSS, and JavaScript. <br>It showcases my skills in front-end development and includes features such as a responsive layout, navigation menu, and interactive elements.</figcaption>
+                    </figure></li>
+            </ul>
+        </li>
+        <li>Amazon Virtual Assistant
+            <ul>
+                <li><figure>
+                    <img src="./images/amazon.jpg" alt="" width="150">
+                    <p> As an Amazon Virtual Assistant, I worked on various tasks including product research, inventory management, customer support, and order processing. <br> I utilized tools such as Seller Central, FBA, and third-party software to streamline processes and improve efficiency.</p>
+                    </figure></li>
+            </ul>
+        </li>
+    </ol>
+
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        /* *{
+        margin: 0;
+        padding: 0;
+        } */
+        nav .navbar .logo a{
+            font-weight: 300;
+            font-size: 35px;
+            color: #4070f4;
+            text-decoration: none;
+            transition: 0.5s;
+        }
+        nav .navbar .logo a:hover{
+            color: rgb(255, 0, 0);
+        }
+        nav .navbar{
+            width: 95%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: auto;
+           
+        }
+        nav .navbar .menu{
+            font-size: 30px;
+            display: flex;
+            position: relative;
+            
+        }
+        nav .navbar .menu li{
+            list-style: none;
+            margin: 0 8px;
+            
+        }
+        .navbar .menu a{
+            text-decoration: none;
+            font-size: 25px;
+            font-weight: 500;
+            padding: 8px 14px;
+            color: rgba(3, 6, 5, 0.716);
+            transition: 0.5s;
+        }
+        .navbar .menu a:hover{
+            color: rgb(213, 7, 82);
+        }
+
+        table{
+            
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 18px;
+        }
+        table td{
+            color: rgb(172, 51, 4);
+            
+        }
+        #img1{
+            width: 150px;
+        }
+        
+    </style>
+</head>
+<body style="background-color: #afbee7;">
+    
+    <!-- nav bar or unordered list-->
+    <nav>
+        <div class="navbar">
+        <div class="logo"><a href="#">Welcome To My Portfolio</a></div>
+        <ul class="menu">
+            <li><a href="./project.html">Projects Page</a></li>
+            <li><a href="./skill.html">Skills Page</a></li>
+            <li><a href="./contact.html">Contact Page</a></li>
+        </ul>
+        </div>
+    </nav>
+    
+    <!-- title or intro or bio-->
+    <!-- &emsp;  is used for white space -->
+        
+        <h2 style="margin-left: 40px;">Hello,</h2>
+        <h2 style="color: rgba(211, 98, 6, 0.822); margin-left: 60px;">I am Ubaid</h2>
+    
+    <figure  style="margin-left: 40px;">
+        <img id="img1" src="./images/ubaidpic.png" alt="">
+
+        <figcaption>a web developer with a passion for building high-quality websites and web applications. My expertise lies in creating modern and user-friendly designs using the latest web technologies such as HTML, CSS, JavaScript, and PHP.</figcaption>
+    </figure>
+    
+    <!-- Tables -->
+
+        <table border="1" style="margin-left: 30px;">
+            <h2 style="margin-left: 30px;">EDUCATIONAL INFORMATION</h2>
+        <thead>
+            <tr>
+                <th>Degree / Certificate</th>
+                <th>Year</th>
+                <th>Obt Marks</th>
+                <th>Board/University</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                
+                <th style="color: #a606bb;">SSC (Science)</th>
+                <td>2017</td>
+                <td>878</td>
+                <td>Bise Peshawar</td>
+            </tr>
+            <tr>
+                <th style="color: #a606bb;">HSSC (Pre-Eng)</th>
+                <td>2019</td>
+                <td>772</td>
+                <td>Bise Peshawar</td>
+            </tr>
+            <tr>
+                <th style="color: #a606bb;">BS(CS)7<sup>th</sup> Sem</th>
+                <td>2020-24</td>
+                <td>CGPA 3.59</td>
+                <td>Affliated with UOP</td>
+            </tr>
+        </tbody>
+        </table>
+            
+</body>
+</html>
