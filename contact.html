@@ -54,7 +54,7 @@
 
         .container {
             max-width: 500px;
-            margin: 50px auto;
+            margin: 10px auto;
             padding: 20px;
             background-color: #fff;
             border-radius: 10px;
@@ -72,9 +72,7 @@
             border-radius: 4px;
             box-sizing: border-box;
         }
-        input[type="radio"] {
-            margin-right: 5px;
-        }
+      
         input[type="submit"] {
             width: 100%;
             background-color: #145acb;
@@ -88,6 +86,24 @@
             background-color: #4645a0;
         }
 
+            .gmail-btn {
+            display: inline-block;
+            background-color: #0c71f6;
+            justify-content: space-between;
+            color: #ffffff;
+            font-size: 18px;
+            font-weight: bold;
+            padding: 3px 23.4px;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            }
+            .gmail-btn:hover {
+                background-color: #0950ae;
+            }
+            
 
     </style>
 </head>
@@ -106,30 +122,30 @@
     </nav>
 
 <!-- contact information -->
+<!-- contact form -->
+
 <div class="container">
     <form action="">
         <h2>Contact Form</h2>
-        <label for="" id="fname">Full Name: <input type="text" size="13" placeholder="first name"></label>
-        <label for="" id="lname"><input type="text" size="13" placeholder="last name"></label><br>
-        
-        <label for="" id="email">Email: <input type="email" placeholder="example@.com"></label><br>
+        <label for="" id="fname">Full Name: <input type="text" size="13" placeholder="full name"></label>
+        <!-- <label for="" id="lname"><input type="text" size="13" placeholder="last name"></label><br> -->
+        <label for="" id="email">Email: <input type="email" required="require" placeholder="example@.com"></label><br>
         <label for="" id="phone">Phone: <input type="number" placeholder="Mobile Number"></label><br>
         <label for="">Message</label><br>
-        <textarea name="desc" id="" cols="65" rows="5"></textarea>
-    </form>
+        <textarea name="desc" id="" cols="65" rows="3"></textarea>
+    
     <br>
     <input type="submit" value="Submit">
     </div>
+    </form>
 
-    <div style="text-align: center; margin-top: 70px;">
-            <h1 style="font-size: 50px;" >Contact Us</h1>
-        <div>
-            <p style="margin-right: 5px;"><img src="./images/gmailicon.png" width="21">&nbsp;<strong>Gmail:</strong> <a href="mailto:ubaidafridi165@gmail.com">ubaidafridi165@gmail.com</a></p>
+    <!-- social media links button  -->
 
-            <p style="margin-right: 80px;"><img src="./images/phoneicon.png" width="21">&nbsp;<strong>Phone:</strong> +923169385875</p>
-
-            <p style="margin-right: 30px;"><img src="./images/linkdicon.png" width="21">&nbsp;<strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/ubaid-ullah-44ba87274/" target="_blank">My LinkedIn Profile</a></p>
-        </div>
+    <div style="text-align: center;">
+        <p  class="gmail-btn"><img src="./images/gmailicon.png"  width="20"> <a href="mailto:ubaidafridi165@gmail.com" class="gmail-btn">Gmail</a></p>
+        <p  class="gmail-btn" ><img src="./images/linkdicon.png" width="20"> <a href="https://www.linkedin.com/in/ubaid-ullah-44ba87274/" target="_blank" class="gmail-btn">LinkedIn</a></p>
+        <p  class="gmail-btn" ><img src="./images/twitter.png" width="20"> <a href=" https://x.com/UbaidAfridi0?s=08" target="_blank" class="gmail-btn">Twitter</a></p>
+        
     </div>
     
 </body>
